@@ -52,4 +52,4 @@ while 1==1:
 		print('sysinfo	Prints info about the shell')
 		print('exit	. . . exit')
 	if command == 'cd':
-		$command
+		command
