@@ -12,8 +12,10 @@ def cd():
 	system('cd')
 def cdDown():
 	system('cd ..')
-def updateCurl
-	system('curl')
+def update():
+	system('git clone https://github.com/BabRoosss/PyDOS')
+def updateDirectory():
+	system('cd ~')
 clear()
 
 print('=========================PyDOS=========================')
@@ -29,7 +31,7 @@ while 1==1:
 		print('You have been loged out of your session.')
 		print('Please log in to continue using PyDOS!')
 		exec(open('PyDOS_Login.py').read())
-	if command == 'textedit':
+	if command == 'nano':
 		nano()
 	if command == 'sysinfo':
 		print('Writen in Python 3')
@@ -49,3 +51,5 @@ while 1==1:
 		print('pwd	Prints current working directory')
 		print('sysinfo	Prints info about the shell')
 		print('exit	. . . exit')
+	if command == 'cd':
+		$command
