@@ -1,0 +1,2 @@
+Update 1: Changed name of PyDOS_Commands.py to PyDOS.py
+Update 2: Added changelog.txt, Included updater to repo, Added APPS directory
